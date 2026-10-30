@@ -1,0 +1,1 @@
+Analyze the user-supplied job URLs under AGENTS.md and the jobapplier-generic skill. Use the configured applicant facts only. Save visible evidence, explain configured filter outcomes, and prepare drafts for review. No submission or outreach without separate exact authorization. Stop on login/access/browser blockers.

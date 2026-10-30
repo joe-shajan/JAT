@@ -1,0 +1,30 @@
+# Private applicant information and search configuration
+.env
+.env.*
+!.env.example
+config/wellfound_search.yaml
+profile/*
+!profile/applicant.example.yaml
+!profile/README.md
+# All acquired information, credentials, browser data and generated outputs
+data/
+runs/
+fetched_pages/
+reports/
+logs/
+*chrome-profile*/
+*browser-profile*/
+*.sqlite*
+*.db
+*.pdf
+*.docx
+.hermes/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+*.zip
+*.tar.gz

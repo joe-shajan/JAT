@@ -1,0 +1,37 @@
+# Copy to wellfound_search.yaml using scripts/setup.py. Empty filters allow any.
+search:
+  posted_within_hours: 48
+  max_jobs_per_run: 50
+  max_dashboard_jobs: 50
+  include_duplicates_in_dashboard: false
+  headless_default: false
+roles:
+  primary: []
+  prefer_keywords: []
+  avoid_keywords: []
+locations:
+  include: []
+  include_if_visible: []
+linkedin:
+  enabled: true
+  delay_seconds: 3.0
+  max_jobs_per_run: 25
+  posted_within_seconds: 172800
+  search_queries: []
+  locations: []
+contacts:
+  discover_founders: true
+  discover_recruiters: true
+  discover_job_poster: true
+  linkedin_public_search_only: true
+  allow_logged_in_linkedin_with_explicit_authorization: true
+  allow_unverified_email_candidates: false
+  email_sources: [visible_job_page, company_website, public_search_results]
+authorized_actions:
+  require_separate_step_for_final_actions: true
+  never_bypass_access_controls: true
+output:
+  fetched_pages_dir: fetched_pages
+  runs_dir: runs
+  html_reports_dir: reports/html
+  master_jobs_csv: data/jobs.csv

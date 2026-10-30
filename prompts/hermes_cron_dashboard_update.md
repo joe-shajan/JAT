@@ -1,0 +1,1 @@
+Research-only scheduled run. Follow AGENTS.md and jobapplier-generic. Use the configured filters and confirmed existing browser; stop if confirmation or login is unavailable. Never submit applications or send outreach from this scheduled run. Preserve artifacts and report source counts, limitations, blockers and dashboard path. Do not install a schedule automatically.
